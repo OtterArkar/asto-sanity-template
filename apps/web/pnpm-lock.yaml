@@ -1,11 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@astrojs/cloudflare': ^4.0.1
   '@astrojs/react': ^1.2.2
   '@astrojs/tailwind': ^2.1.2
   '@types/react': ^18.0.21
   '@types/react-dom': ^18.0.6
-  astro: ^1.6.9
+  astro: ^1.6.5
   react: ^18.0.0
   react-dom: ^18.0.0
   react-is: ^18.2.0
@@ -14,6 +15,7 @@ specifiers:
   tailwindcss: ^3.0.24
 
 dependencies:
+  '@astrojs/cloudflare': 4.0.1_astro@1.6.9
   '@astrojs/react': 1.2.2_cn3ejhfta5lq2dae4xucvtkwvu
   '@astrojs/tailwind': 2.1.2_tailwindcss@3.2.4
   '@types/react': 18.0.25
@@ -34,6 +36,15 @@ packages:
     dependencies:
       '@jridgewell/gen-mapping': 0.1.1
       '@jridgewell/trace-mapping': 0.3.17
+    dev: false
+
+  /@astrojs/cloudflare/4.0.1_astro@1.6.9:
+    resolution: {integrity: sha512-0tYqulZQyCbmFP3wg8arO1vqY44e+ye94DrxOzlN+pxxqylhbLi94Rz9Z1HzWeOTyrhpG4reyl4ffHlTYzXnng==}
+    peerDependencies:
+      astro: ^1.6.5
+    dependencies:
+      astro: 1.6.9
+      esbuild: 0.14.54
     dev: false
 
   /@astrojs/compiler/0.29.17:
