@@ -1,0 +1,12 @@
+---
+// if pathname includes /studio 
+// then redirect to /studio/
+if(Astro.url.pathname !== '/studio/' && Astro.url.pathname.indexOf('/studio') > -1) {
+  return Astro.redirect('/studio/');
+}
+
+---
+
+<div>
+    404 - Not Found
+</div>
