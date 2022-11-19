@@ -4,7 +4,7 @@ import { schemaTypes } from "./schemas";
 
 export default defineConfig({
   name: "default",
-  title: "Sanity In Astro",
+  title: "🚀 Sanity Astro",
   basePath: "/studio",
   projectId: import.meta.env.PUBLIC_SANITY_PROJECT_ID,
   dataset: import.meta.env.PUBLIC_SANITY_DATASET,
